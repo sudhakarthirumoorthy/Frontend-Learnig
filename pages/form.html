@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="shortcut icon" href="../assets/images/fav.jpg" type="">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header> <h1>Registra</h1>
+    <p>Create your account. Start your journey.</p>
+    </header>
+<nav>
+    <ul>
+        <li><a href="Home">Home</a></li>
+        <li><a href="./form.html" target="_self">Register</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Contact">Contact</a></li>
+    </ul>
+</nav>
+    <main>
+        <section class=" form">
+            <h2>User Registration</h2>
+            <p>Please fill in your details below.</p>
+        </section>
+
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="name">Full name</label>
+                <input type="text" id="name" name="Fullname" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" maxlength="10" pattern="[0-9]{10}"
+                    required></div>
+            <div class="form-group">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
+    </main>
+
+<footer>
+    <center>
+    <!-- Website name -->
+    <h2>Registra</h2>
+    <!-- Description -->
+    <p>Making registration simple and easy.</p>
+    <!-- Copyright -->
+    <h2>&copy 2026 Registra. All rights reserved.</h2>
+    <!-- Footer links -->
+    <a href="#"> Privacy policy</a>
+    <a href="#"> Contact Us</a>
+    </center>
+</footer>
+</body>
+</html>
